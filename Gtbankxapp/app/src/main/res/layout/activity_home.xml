@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    tools:openDrawer="start"
+    android:id="@+id/drawer_layout">
+
+   <com.google.android.material.navigation.NavigationView
+       android:id="@+id/navigation_view_"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@color/purple_700"
+       android:layout_gravity="start"
+       app:headerLayout="@layout/menu_header"
+       app:menu="@menu/main_menu"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/teal_200">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="539dp"
+            android:layout_weight="1"
+            android:background="@color/purple_500" />
+
+        <TextView
+            android:id="@+id/SVA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:gravity="left|center_vertical|bottom"
+            android:padding="10dp"
+            android:text="SAVINGS ACCOUNT "
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/btnAcctNm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0772299821"
+            android:textSize="13dp"
+            android:textColor="@color/white"
+            android:gravity="left|center_vertical|bottom"
+            android:layout_marginTop="87dp"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/btnAcctSrs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="304dp"
+            android:layout_marginTop="10dp"
+            android:padding="2dp"
+            android:text="Acc.1 of 1" />
+
+        <Button
+            android:id="@+id/SWP"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:backgroundTint="@color/white"
+            android:gravity="center|center_vertical|top"
+            android:padding="1dp"
+            android:text="<swipe>"
+            android:layout_marginTop="154dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/purple_500"
+            />
+
+        <TextView
+            android:id="@+id/btnAccbalance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="75dp"
+            android:padding="2dp"
+            android:text="Account Balance"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/Amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="287dp"
+            android:layout_marginTop="93dp"
+            android:text="#2,000.97"
+            android:textColor="@color/white"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/Bkbalance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book Balance #1,000.97"
+            android:textColor="@color/white"
+            android:layout_marginTop="158dp"
+            android:layout_marginLeft="235dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="192dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnhistory"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="History" />
+
+            <Button
+                android:id="@+id/btnSearch"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/white"
+                android:text="Search"
+                android:textColor="@color/purple_500"/>
+
+            <Button
+                android:id="@+id/btnrange"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="Range"
+                android:textColor="@color/purple_500"
+                android:backgroundTint="@color/white"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="26dp"
+            app:srcCompat="@drawable/ic_baseline_dehaze_24" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="E-CHANNELS"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MBanking - REF-9014566777777777657688345790234567899">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="450dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="E-CHANNELS"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MBanking - REF-9014566777777777657688345790234567899">
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="448dp"
+            android:text="+7000.00"
+            android:textColor="#3ADA1E"
+            android:textSize="25dp" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="268dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MBanking - REF-9014566777777777657688345790234567899">
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="325dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="E-CHANNELS"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MBanking - REF-9014566777777777657688345790234567899">
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="325dp"
+            android:text="+7000.00"
+            android:textColor="#3ADA1E"
+            android:textSize="25dp" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/alerdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="238dp"
+            android:text="21ST NOV 2020"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/alerdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="380dp"
+            android:text="21ST NOV 2020"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="510dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="268dp"
+            android:text="-2000.00"
+            android:textColor="#E60E0E"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="400dp"
+            android:text="-2000.00"
+            android:textColor="#E60E0E"
+            android:textSize="25dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/alerdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="515dp"
+            android:text="21ST NOV 2020"
+            android:textSize="18dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="535dp"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="E-CHANNELS"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MBanking - REF-9014566777777777657688345790234567899">
+
+
+
+            </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="530dp"
+            android:text="-2000.00"
+            android:textColor="#E60E0E"
+            android:textSize="25dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="535dp"
+            android:layout_weight="4"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="E-CHANNELS"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold">
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="600dp"
+            android:text="+7000.00"
+            android:textColor="#3ADA1E"
+            android:textSize="25dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="595dp"
+            android:layout_weight="4"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="E-CHANNELS"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MBanking - REF-9014566777777777657688345790234567899">
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/alerdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="650dp"
+            android:text="21ST NOV 2020"
+            android:textSize="18dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="670dp"
+            android:layout_weight="4"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="E-CHANNELS"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MBanking - REF-9014566777777777657688345790234567899">
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="670dp"
+            android:text="-2000.00"
+            android:textColor="#E60E0E"
+            android:textSize="25dp" />
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <group android:checkableBehavior="none">
+      <item
+          android:id="@+id/nav_Accounts"
+          android:title="Accounts"
+          android:icon="@drawable/ic_baseline_dehaze_24"/>
+
+      <item
+          android:id="@+id/nav_Transfer"
+          android:title="Transfer"
+          android:icon="@drawable/ic_baseline_dehaze_24"/>
+      <item
+          android:id="@+id/nav_Quick_Loan"
+          android:title="Quick Loan"
+          android:icon="@drawable/ic_baseline_dehaze_24"/>
+      <item
+          android:id="@+id/nav_CashOut"
+          android:title="CashOut"
+          android:icon="@drawable/ic_baseline_dehaze_24"/>
+      <item
+          android:id="@+id/nav_AirtimeData"
+          android:title="Airtime & Data"
+          android:icon="@drawable/ic_baseline_dehaze_24"/>
+      <item
+          android:id="@+id/nav_Bill_Payments"
+          android:title="Bill Payments"
+          android:icon="@drawable/ic_baseline_dehaze_24"/>
+      <item
+          android:id="@+id/nav_Sports_and_Game"
+          android:title="Sports and Gaming"
+          android:icon="@drawable/ic_baseline_dehaze_24"/>
+      <item
+          android:id="@+id/nav_My_Services"
+          android:title="My Services"
+          android:icon="@drawable/ic_baseline_dehaze_24"/>
+      <item
+          android:id="@+id/nav_Settings_Help"
+          android:title="Settings & Help"
+          android:icon="@drawable/ic_baseline_dehaze_24"/>
+
+
+      <item
+          android:id="@+id/nav_Login"
+          android:title="Login"
+          android:icon="@drawable/ic_baseline_dehaze_24"/>
+
+
+
+
+
+  </group>
+
+
+</menu>
+

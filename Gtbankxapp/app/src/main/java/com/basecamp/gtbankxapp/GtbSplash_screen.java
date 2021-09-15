@@ -1,0 +1,16 @@
+package com.basecamp.gtbankxapp;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+public class GtbSplash_screen extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_gtb_splash_screen);
+
+
+    }
+}
